@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declarationMap": true,
+    "target": "es6",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "watch": false,
+    "outDir": "./bin/",
+    "rootDir": "./",
+    "types": [
+      "node",
+      "mocha",
+      "chai"
+    ],
+    "noUnusedLocals": true,
+    "lib": [
+      "es2015",
+      "es2016.array.include"
+    ],
+    "declaration": true,
+    "moduleResolution": "node"
+  },
+  "exclude": [
+    "node_modules", "bin"
+  ],
+  "include": ["**/*"]
+}
